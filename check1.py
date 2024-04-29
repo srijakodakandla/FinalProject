@@ -1,6 +1,6 @@
 import streamlit as st
+import psycopg2
 from psycopg2 import extras
-
 
 st.write("""
 # My first app
