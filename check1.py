@@ -14,7 +14,7 @@ def connect_to_database():
         user="postgres",
         password="postgres",
         host="localhost",
-        port="8501"
+        port="5432"
     )
 
 def execute_query(query):
